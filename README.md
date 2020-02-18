@@ -14,7 +14,7 @@
 > This allows Kubernetes nodes to be backed by Virtual Kubelet providers such as serverless cloud container platforms.
 
 再放张[官方Repo](https://github.com/virtual-kubelet/virtual-kubelet)的图，就方便理解了：
-![](https://github.com/virtual-kubelet/virtual-kubelet/raw/master/website/static/img/diagram.svg?sanitize=true)
+![](/img/virtual_kubelet.png)
 
 
 ## Virtual Kubelet with ACI
