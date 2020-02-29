@@ -40,13 +40,13 @@ ACI作为Virtual Kubelet的一个Provider，可以给您的K8S cluster提供的�
 当然，Azure上VM的价格如果采用保留实例（类似包年）的形式会更便宜，但ACI的好处是可以快速的帮你实现扩容，而且ACI的使用时间更灵活。
 
 ## AKS的Virtual Nodes
-K8S cluster可以方便的使用ACI，可以参考：https://github.com/virtual-kubelet/azure-aci/
+K8S cluster可以方便的使用ACI，可以参考：[https://github.com/virtual-kubelet/azure-aci/](https://github.com/virtual-kubelet/azure-aci/)
 
 而作为Azure上托管的K8S，即AKS是如何使用ACI的呢？AKS的virtual nodes即是使用ACI作为virtual kubelet的。具体创建virtual nodes的方式可以参考官网文档：
 
-https://docs.microsoft.com/azure/aks/virtual-nodes-cli
+[https://docs.microsoft.com/azure/aks/virtual-nodes-cli](https://docs.microsoft.com/azure/aks/virtual-nodes-cli)
 
-https://docs.microsoft.com/azure/aks/virtual-nodes-portal
+[https://docs.microsoft.com/azure/aks/virtual-nodes-portal](https://docs.microsoft.com/azure/aks/virtual-nodes-portal)
 
 这儿不再赘述了。启用virtual nodes后的状态：
 ```bash
